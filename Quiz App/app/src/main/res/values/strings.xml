@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="game_username">game_username</string>
+    <string name="player">Player:</string>
+    <string name="points">Points:</string>
+    <string name="user_point">user_point</string>
+    <string name="answers">answers</string>
+    <string name="answer">answer</string>
+    <string name="add_question">add_question</string>
+    <string name="question_text">question_text</string>
+    <string name="correct_answer">correct_answer</string>
+    <string name="welcome">welcome</string>
+    <string name="test_your_skills">test_your_skills</string>
+    <string name="read_questions">read_questions</string>
+    <string name="create_questions">create_questions</string>
+    <string name="answer2">answer2</string>
+    <string name="answer1">answer1</string>
+    <string name="home">home</string>
+    <string name="quiz_time">quiz_time</string>
+    <string name="new_questions">new_questions</string>
+    <string name="detalis">Detalis</string>
+    <string name="delete">Delete</string>
+    <string name="profile">profile</string>
+    <string name="list_of_questions">list_of_questions</string>
+    <string name="enjoy_the_quiz_app_wher_you_can">Enjoy the quiz app, wher you can:</string>
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.QuestionDetailFragment">
+
+    <TextView
+        android:id="@+id/question_detail_text"
+        android:layout_width="330dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/question_text"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/detail_answer1"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/answer1"
+
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/question_detail_text" />
+
+    <TextView
+        android:id="@+id/detail_answer2"
+        android:layout_width="241dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/answer2"
+        android:textColor="@color/black"
+
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/detail_answer1" />
+
+    <TextView
+        android:id="@+id/detail_answer3"
+        android:layout_width="246dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+
+        android:text="answer3"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/detail_answer2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/detail_answer4"
+        android:layout_width="242dp"
+        android:layout_height="48dp"
+
+        android:layout_marginTop="15dp"
+        android:text="answer4"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/detail_answer3" />
+</androidx.constraintlayout.widget.ConstraintLayout>
